@@ -1,6 +1,6 @@
 #!/bin/sh
 
-i=1
+i=${@:-1}
 
 while true; do
 	echo -en "$i\t";
