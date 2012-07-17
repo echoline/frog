@@ -3,7 +3,7 @@
 i=1
 
 while true; do
-	echo -n "$i ";
+	echo -en "$i\t";
 	./frog $i | ./acc | ./change;
 	i=`expr $i + 1`;
 done
