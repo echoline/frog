@@ -12,6 +12,4 @@ and a shell script:
 
 	frog.sh - to run all this crap for weeks and weeks
 
-results from 1 to 12 jumps of the frog can be found in frog.dat if one does not wish to bog down one's computer, and is interested in this range of number of jumps of the frog.
-
-there are, of course, better ways to do this...
+some results can be found in frog.dat if one does not wish to bog down one's computer.  there are, of course, better ways to do this...
