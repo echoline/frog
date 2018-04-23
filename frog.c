@@ -17,16 +17,14 @@ main (int argc, char **argv)
 
 	jumps = atoi (argv[1]);
 
-	srand (time (NULL));
-
 	while (1)
 	{
 		x = y = 0.0;
 
 		for (i = 0; i != jumps; i++)
 		{
-			angle = ((double)rand() / RAND_MAX) * 2.0 * M_PI;
-			dist = (double)rand() / RAND_MAX;
+			angle = ((double)arc4random_uniform(RAND_MAX) / RAND_MAX) * 2.0 * M_PI;
+			dist = (double)arc4random_uniform(RAND_MAX) / RAND_MAX;
 
 			x += cos (angle) * dist;
 			y += sin (angle) * dist;

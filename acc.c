@@ -13,6 +13,7 @@ main (int argc, char **argv)
 		if (dist <= 1.0)
 			inside++;
 
-		printf ("%f\n", inside * 100.0 / acc);
+		if (acc % 100 == 0)
+			printf ("%f\n", inside * 100.0 / acc);
 	}
 }

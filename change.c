@@ -4,7 +4,7 @@ int
 main (int argc, char **argv)
 {
 	double dist, last = 0.0;
-	unsigned char count = 0;
+	unsigned long long count = 0;
 
 	while (scanf ("%lf", &dist))
 	{
@@ -13,7 +13,7 @@ main (int argc, char **argv)
 		else
 			count = 0;
 
-		if (count == 50)
+		if (count == 64)
 			break;
 
 		last = dist;
