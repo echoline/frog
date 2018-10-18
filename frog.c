@@ -23,8 +23,8 @@ main (int argc, char **argv)
 
 		for (i = 0; i != jumps; i++)
 		{
-			angle = ((double)arc4random_uniform(RAND_MAX) / RAND_MAX) * 2.0 * M_PI;
-			dist = (double)arc4random_uniform(RAND_MAX) / RAND_MAX;
+			angle = ((double)rand() / RAND_MAX) * 2.0 * M_PI;
+			dist = (double)rand() / RAND_MAX;
 
 			x += cos (angle) * dist;
 			y += sin (angle) * dist;

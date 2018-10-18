@@ -14,6 +14,6 @@ main (int argc, char **argv)
 			inside++;
 
 		if (acc % 100 == 0)
-			printf ("%f\n", inside * 100.0 / acc);
+			printf ("%.4f\n", inside * 100.0 / acc);
 	}
 }

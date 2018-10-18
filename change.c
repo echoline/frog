@@ -13,11 +13,11 @@ main (int argc, char **argv)
 		else
 			count = 0;
 
-		if (count == 64)
+		if (count == 256)
 			break;
 
 		last = dist;
 	}
 
-	printf ("%f\n", dist);
+	printf ("%.2f\n", dist);
 }
